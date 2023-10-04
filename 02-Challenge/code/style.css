@@ -56,6 +56,11 @@ img {
     flex-basis: auto;
     object-fit: fill;
 }
+.img2 {
+  width: 30%;
+  height: 400px;
+  float: left;
+}
 
 .footer {
   column-count: 2;
