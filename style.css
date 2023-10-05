@@ -57,7 +57,7 @@ img {
     object-fit: fill;
 }
 .img2 {
-  width: 30%;
+  width: 20%;
   height: 400px;
   float: left;
 }
@@ -70,4 +70,17 @@ img {
   line-height: 5;
   word-spacing: 20px;
   text-align: center;
+}
+
+@media screen and (max-width: 1000px),(max-height: 1000px) {
+  .work { 
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .work { 
+    width: 100%;
+  }
 }
