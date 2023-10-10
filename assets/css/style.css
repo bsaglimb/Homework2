@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  /* height: 40px; */
+  background-color: rgb(48, 43, 129);
+  font-size: large;
+  color: rgb(254, 254, 254);
+  font-family: "lucida sans";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: #000000;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.hero {
+  background-image: url(../images/download.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 27vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 3% 5%;
+}
+
+.img {
+  width: 100%;
+  height: 200px;
+  flex-basis: auto;
+  object-fit: fill;
+}
+.subtitle {
+  left: 1000px;
+  bottom: 75px;
+  color: white;
+}
+
+main {
+  margin: 20px 0;
+}
+
+section {
+  display: flex;
+  margin: 5% 0;
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+}
+
+
+section h2 {
+  font-size: 40px;
+  padding-right: 15px;
+  border-right: 3px solid black;
+  flex: 0 0 20%;
+}
+
+section div{
+  display: flex;
+  justify-content: center;
+  flex: 0 0 75%;
+}
+
+.img2 {
+  width: 17%;
+  height: 300px;
+  margin: auto 15px;
+  border-radius: 4em;
+}
+section p {
+  width: 45%;
+  padding: auto 20px;
+}
+
+.items{
+  display: flex;
+  justify-content: center;
+}
+
+
+footer {
+  color: #0d017d;
+  line-height: 5;
+  word-spacing: 20px;
+  text-align: center;
+}
+
+
+/* 
+.work {
+  column-count: 2;
+  column-rule-style: double;
+  column-gap: 100px;
+  color: #0d017d;
+}
+
+.project {
+  border: #000000;
+  border-style: solid;
+  width: 100%;
+  height: 300px;
+  flex-direction: column;
+}
+
+.h2 {
+  font-size: 40px;
+  text-align: right;
+  line-height: 5px;
+}
+
+nav {
+  display: flex;
+  background-color: rgb(48, 43, 129);
+  justify-content: flex-end;
+}
+
+nav a {
+  color: #000000;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
+footer {
+  column-count: 2;
+  column-rule-style: double;
+  column-gap: 100px;
+  color: #0d017d;
+  line-height: 5;
+  word-spacing: 20px;
+  text-align: center;
+} */

@@ -1,56 +1,72 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brianna's portfolio</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-<header>
-    <h1> Brianna</h1>
-</header>
 
-<body>
-    <nav class="nav">
+  <body>
+    <header>
+      <h1>Brianna</h1>
+      <nav >
         <a href="#about">About Me</a>
         <a href="#work">Work</a>
         <a href="#">Resume</a>
         <a href="#contact">Contact Me</a>
-    </nav>
-   
-    <section>
-        <img class="img" src= "download.jpg" alt="purple and blue style"/>
-        <h1 class="subtitle">Welcome to my page!</h1>
-    </section>
+      </nav>
+    </header>
 
-    <article>
-        <img class="img2" src="image1.png" alt="professional photo">
-    </article>
-    
-    <section id="about" class="work">
-        <h2 class="h2">About Me</h2> 
-        <p class="about"> Hi! My name is Brianna. I am in a coding bootcamp at UM, learning all the front-end and back-end of coding. After graduating undergrad with a B.A in psychology, I became a scientist with a focus in neuroscience. I have 7 years of experience as a scientist and three published papers. I would like to eventually combine my passion for coding and neuroscience. </p>
-    </section>
+    <div class="hero">
+      <!-- <img class="img" src="download.jpg" alt="purple and blue style" /> -->
+      <h1 class="subtitle">Welcome to my page!</h1>
+    </div>
 
-    <section id="work" class="work">
-        <h2 class="h2"> Work</h2>
+    <main class="main-content">
+      <section id="about" class="about">
+
+        <h2 class="h2">About Me</h2>
         <div>
-        <a href="https://bsaglimb.github.io/Homework1/">
-            <img class="project" src="download-2.jpg" alt="laptop with website on screen">
-        </a>
-            <img class="project" src="download.png" alt="project">
+          <img class="img2" src="./assets/images/image1.png" alt="professional photo" />
+      
+          <p class="aboutMe">
+            Hi! My name is Brianna. I am in a coding bootcamp at UM, learning all
+            the front-end and back-end of coding. After graduating undergrad with
+            a B.A in psychology, I became a scientist with a focus in
+            neuroscience. I have 7 years of experience as a scientist and three
+            published papers. I would like to eventually combine my passion for
+            coding and neuroscience.
+          </p>
         </div>
-    </section>
+      </section>
 
+      <section id="work" class="work">
+        <h2 class="h2">Work</h2>
+        <div class="items">
+          <a href="https://bsaglimb.github.io/Homework1/">
+            <img
+              class="project"
+              src="./assets/images/download-2.jpg"
+              alt="laptop with website on screen"
+            />
+          </a>
+          <a href="https://bsaglimb.github.io/Homework1/">
+            <img
+              class="project"
+              src="./assets/images/download.jpg"
+              alt="laptop with website on screen"
+            />
+          </a>
+        </div>
+      </section>
+    </main>
 
-</body>
-
-<footer id="contact" class="footer">
-    <h2 class="h2">Contact Me</h2>
-    <span>(631)559-0345</span>
-    <span>Bsaglimb@gmail.com</span> 
-    <span>Linkedin</span>
-    <span>Github</span> 
-</footer>
-
+    <footer id="contact" class="footer">
+      <h2 class="h2">Contact Me</h2>
+      <span>(631)559-0345</span>
+      <span>Bsaglimb@gmail.com</span>
+      <span>Linkedin</span>
+      <span>Github</span>
+    </footer>
+  </body>
 </html>
